@@ -62,7 +62,7 @@ export default function Home() {
                         className="h-8 w-8 mr-2 my-0 text-white "/> {}
                         {streets.length} Streets in <span className={"font-bold text-white px-2"}>{city.toUpperCase()}</span>
                         </h2>
-                    <div className="overflow-auto max-h-[70vh] rounded-3xl custom-scrollbar">
+                    <div className="overflow-auto max-h-[50vh] rounded-3xl custom-scrollbar">
                         <table className="min-w-full border bg-indigo-500 text-white text-2xl rounded-xl mx-auto">
                             <thead>
                             <tr className="bg-red-300 justify-center">
